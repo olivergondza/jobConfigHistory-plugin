@@ -227,7 +227,7 @@ public class JobConfigHistoryTest {
     public void testGetSaveModuleConfiguration() {
         JobConfigHistory sut = createSut();
         boolean result = sut.getSaveModuleConfiguration();
-        assertTrue(result);
+        assertFalse(result);
     }
 
     /**
